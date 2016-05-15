@@ -1,0 +1,15 @@
+# Set defaults, hopefully people have core.autocrlf set
+* text=auto
+
+# Normal text files
+*.md text
+*.sh text
+
+# TeX specific files, that are text
+*.tex text
+*.bib text
+*.sty text
+*.cls text
+
+# Files that are always going to be binary files
+*.pdf binary
